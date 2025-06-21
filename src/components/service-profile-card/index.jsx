@@ -49,7 +49,9 @@ const ServiceProfileCard = () => {
 
           <div className='flex items-center justify-center text-center text-gray-700 mt-2'>
             <MapPin className='h-4 w-4 mr-2 ' aria-hidden='true' />
-            <span>313 Walnut Court White House, TN, 37188</span>
+            <span className='max-w-[260px] truncate'>
+              313 Walnut Court White House, TN, 37188
+            </span>
           </div>
 
           {/* Rating Section */}

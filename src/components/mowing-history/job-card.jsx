@@ -26,7 +26,7 @@ const JobCard = ({ job }) => {
       </div>
 
       <div className='p-2 bg-transparent flex-grow flex flex-col'>
-        <h3 className='text-lg font-bold text-gray-800'>
+        <h3 className='text-base sm:text-lg font-bold text-gray-800 mb-1'>
           {job.title?.split('–')[0]}
           <span className='ml-1 font-normal text-gray-600'>
             – {job.title?.split('–')[1]}

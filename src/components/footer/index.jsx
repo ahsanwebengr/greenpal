@@ -32,7 +32,7 @@ const Footer = () => {
         <div className='grid grid-cols-1 gap-12 text-center md:grid-cols-2 md:text-left lg:grid-cols-12 lg:gap-8 items-start'>
           {/* Company Links */}
           <div className='lg:col-span-3'>
-            <h3 className='text-base font-bold text-white'>Company</h3>
+            <h3 className='text-base sm:text-lg font-bold text-white'>Company</h3>
             <ul className='mt-6 space-y-4'>
               {companyLinks.map(link => (
                 <li key={link.name}>
@@ -49,7 +49,9 @@ const Footer = () => {
 
           {/* Featured Service Areas */}
           <div className='lg:col-span-3'>
-            <h3 className='text-base font-bold text-white'>Featured Service Areas:</h3>
+            <h3 className='text-base sm:text-lg font-bold text-white'>
+              Featured Service Areas:
+            </h3>
             <ul className='mt-6 space-y-4'>
               {serviceAreaLinks.map(link => (
                 <li key={link.name}>
@@ -74,7 +76,7 @@ const Footer = () => {
 
           {/* Connect With Us */}
           <div className='lg:col-span-3'>
-            <h3 className='text-base font-bold text-white'>Connect with us</h3>
+            <h3 className='text-base sm:text-lg font-bold text-white'>Connect with us</h3>
             <div className='mt-6 flex justify-center gap-3 md:justify-start'>
               {socialLinks.map(social => (
                 <a
@@ -121,5 +123,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-

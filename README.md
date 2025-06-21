@@ -1,12 +1,95 @@
-# React + Vite
+# GreenPal React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive web application for lawn care services, built with React and Vite. This project demonstrates a clean UI, component-based architecture, and best practices for a service marketplace.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Service provider profile with ratings and reviews
+- Gallery of completed yard work
+- FAQ and service area sections
+- Sidebar with contact and service selection
+- Responsive layout using Tailwind CSS
+- Modular, reusable React components
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React 19](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Radix UI](https://www.radix-ui.com/)
+- [Lucide React Icons](https://lucide.dev/)
+- ESLint for code quality
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher recommended)
+- npm or yarn
+
+### Installation
+
+```sh
+npm install
+# or
+yarn install
+```
+
+### Development
+
+Start the development server with hot reloading:
+
+```sh
+npm run dev
+# or
+yarn dev
+```
+
+### Build
+
+Create a production build:
+
+```sh
+npm run build
+```
+
+### Preview
+
+Preview the production build locally:
+
+```sh
+npm run preview
+```
+
+### Lint
+
+Check code quality with ESLint:
+
+```sh
+npm run lint
+```
+
+## Project Structure
+
+```
+├── public/                # Static assets
+├── src/
+│   ├── App.jsx            # Main app component
+│   ├── main.jsx           # Entry point
+│   ├── index.css          # Global styles (Tailwind)
+│   ├── assets/            # Images and icons
+│   └── components/        # UI and feature components
+│       └── ...
+├── index.html             # HTML template
+├── package.json           # Project metadata and scripts
+└── README.md              # Project documentation
+```
+
+## Credits
+
+- UI inspired by GreenPal
+- Images and icons from Unsplash, Lucide, and Radix UI
+
+## License
+
+This project is for educational/demo purposes only.

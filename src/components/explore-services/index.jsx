@@ -44,7 +44,7 @@ const ExploreServices = () => {
           <h2 className='text-2xl sm:text-[26px] font-bold text-gray-900 text-center sm:text-start'>
             Explore More Lawn Care Professionals Near the White House
           </h2>
-          <div className='mt-6 flex flex-wrap items-center gap-3'>
+          <div className='mt-3 md:mt-6 flex flex-wrap items-center gap-3'>
             {professionals.map((prof, index) => (
               <Chip
                 key={index}

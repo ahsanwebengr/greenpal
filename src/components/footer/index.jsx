@@ -114,7 +114,7 @@ const Footer = () => {
                 Terms & Conditions
               </a>
             </div>
-            <p>Copyright © 2025 GreenPal Co. All rights reserved.</p>
+            <p className='text-center'>Copyright © 2025 GreenPal Co. All rights reserved.</p>
           </div>
         </div>
       </div>

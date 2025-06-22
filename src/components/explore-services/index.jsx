@@ -39,7 +39,7 @@ const ExploreServices = () => {
 
   return (
     <section className='bg-white font-sans py-1'>
-      <div className=' px-2 sm:px-6 lg:px-8'>
+      <div className='px-2'>
         <div>
           <h2 className='text-2xl sm:text-[26px] font-bold text-gray-900 text-center sm:text-start'>
             Explore More Lawn Care Professionals Near the White House
@@ -59,7 +59,7 @@ const ExploreServices = () => {
           </div>
         </div>
 
-        <div className='mt-6 rounded bg-slate-100/70 p-6 sm:p-8'>
+        <div className='mt-6 rounded bg-slate-100/70 p-2'>
           <h2 className='text-2xl sm:text-3xl font-bold text-gray-900 text-center sm:text-start'>
             Find Landscaping & Lawn Care Services Near You
           </h2>
@@ -68,7 +68,7 @@ const ExploreServices = () => {
             <h3 className='text-lg font-semibold text-gray-800 text-center sm:text-start'>
               Landscaping Services
             </h3>
-            <div className='mt-4 flex flex-wrap items-center gap-3'>
+            <div className='mt-2 sm:mt-4 flex flex-col md:flex-row md:flex-wrap md:items-center gap-1 sm:gap-3'>
               {landscapingServices.map((service, index) => (
                 <Chip
                   key={index}
@@ -84,7 +84,7 @@ const ExploreServices = () => {
             <h3 className='text-lg font-semibold text-gray-800 text-center sm:text-start'>
               Lawn Care Services
             </h3>
-            <div className='mt-4 flex flex-wrap items-center gap-3'>
+            <div className='mt-2 sm:mt-4 flex flex-col md:flex-row md:flex-wrap md:items-center gap-1 sm:gap-3'>
               {lawnCareServices.map((service, index) => (
                 <Chip
                   key={index}

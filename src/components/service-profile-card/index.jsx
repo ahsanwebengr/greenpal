@@ -74,15 +74,27 @@ const ServiceProfileCard = () => {
 
           {/* Action Buttons */}
           <div className='flex flex-wrap justify-center md:justify-start gap-3 mt-6'>
-            <Button variant='outline' size='lg' className='text-gray-800'>
+            <Button
+              variant='outline'
+              size='lg'
+              className='w-full sm:w-auto h-14 sm:h-12 text-gray-900 border-gray-900 p-5'
+            >
               <MessageCircle className='h-4 w-4 mr-2' aria-hidden='true' />
               Message
             </Button>
-            <Button variant='outline' size='lg' className='text-gray-800'>
+            <Button
+              variant='outline'
+              size='lg'
+              className='w-full sm:w-auto h-14 sm:h-12 text-gray-900 border-gray-900 p-5'
+            >
               <Phone className='h-4 w-4 mr-2' aria-hidden='true' />
               Request a Call
             </Button>
-            <Button variant='outline' size='lg' className='text-gray-800'>
+            <Button
+              variant='outline'
+              size='lg'
+              className='w-full sm:w-auto h-14 sm:h-12 text-gray-900 border-gray-900 p-5'
+            >
               <DollarSign className='h-4 w-4 mr-2' aria-hidden='true' />
               Make a Payment
             </Button>

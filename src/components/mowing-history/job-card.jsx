@@ -25,7 +25,7 @@ const JobCard = ({ job }) => {
         </div>
       </div>
 
-      <div className='p-2 bg-transparent flex-grow flex flex-col'>
+      <div className='py-2 bg-transparent flex-grow flex flex-col'>
         <h3 className='text-base sm:text-lg font-bold text-gray-800 mb-1'>
           {job.title?.split('–')[0]}
           <span className='ml-1 font-normal text-gray-600'>
@@ -51,7 +51,7 @@ const JobCard = ({ job }) => {
           />
         </div>
 
-        <div className='mt-6 bg-slate-100 p-4 rounded-lg flex-grow'>
+        <div className='mt-6 bg-slate-100 p-4 rounded-tl-none rounded-xl flex-grow'>
           <p className='text-gray-600 text-sm'>{job.note}</p>
         </div>
       </div>

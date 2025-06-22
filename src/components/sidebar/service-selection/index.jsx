@@ -28,11 +28,7 @@ const ServiceSelectionCard = () => {
         >
           {serviceOptions.map(option => (
             <div key={option.id} className='flex items-center space-x-3'>
-              <RadioGroupItem
-                value={option.id}
-                id={option.id}
-                className='h-6 w-6 border-gray-400 text-sky-500 focus:ring-sky-500 data-[state=checked]:border-sky-500'
-              />
+              <RadioGroupItem value={option.id} id={option.id} />
               <Label htmlFor={option.id} className='text-base text-gray-700 font-medium'>
                 {option.label}
               </Label>

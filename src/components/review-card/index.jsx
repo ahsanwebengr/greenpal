@@ -4,10 +4,10 @@ import { StarRating } from '@/components';
 
 export const ReviewCard = ({ review }) => {
   return (
-    <div className='p-4 sm:p-6 transition-shadow duration-200 border-b border-gray-200 last:border-b-0'>
+    <div className='py-2 sm:py-4 transition-shadow duration-200 border-b border-gray-200 last:border-b-0'>
       <div className='flex flex-col'>
         {/* Top section: Avatar + Info */}
-        <div className='flex flex-row items-start gap-4 mb-4'>
+        <div className='flex flex-row items-start gap-4 mb-2 sm:mb-4'>
           {/* Avatar */}
           <Avatar className='w-12 h-12 shrink-0'>
             <AvatarImage src={review.avatarSrc} alt={`${review.author}'s avatar`} />
@@ -60,7 +60,7 @@ export const ReviewCard = ({ review }) => {
                 filledColor='text-yellow-400 fill-yellow-400'
               />
               {review.verified && (
-                <div className='flex items-center gap-1 text-sm text-green-600 font-medium'>
+                <div className='flex items-center gap-1 text-xs  sm:text-sm text-green-600 font-medium'>
                   <BadgeCheck size={16} />
                   Verified by GreenPal
                 </div>

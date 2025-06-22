@@ -30,7 +30,7 @@ const ServiceArea = () => {
 
   return (
     <div className='w-full font-sans bg-white'>
-      <div className='p-4 md:p-6'>
+      <div className='p-2 my-3'>
         <h2 className='text-2xl sm:text-3xl font-bold text-gray-800 text-center sm:text-start'>
           Lawn & Yard Services Offered:
         </h2>
@@ -42,7 +42,7 @@ const ServiceArea = () => {
       </div>
 
       <div className='bg-[#D8F3D7] px-4 sm:px-6 lg:px-8 pb-16 pt-8'>
-        <div className='text-center'>
+        <div className='text-center sm:text-start'>
           <h2 className='text-2xl sm:text-3xl font-bold text-gray-800 max-w-3xl mx-auto leading-tight'>
             ETC services coverage area and lawn maintenance clients in the White House
             area

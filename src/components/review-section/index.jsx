@@ -143,7 +143,7 @@ export const ReviewSection = () => {
           <ReviewCard key={review.id} review={review} />
         ))}
       </div>
-      <Button variant='outline' size='lg' className=' border-black/80 hover:opacity-90'>
+      <Button variant='outline' size='lg' className='w-full sm:w-auto mt-4 border-black/80 hover:opacity-90'>
         Read More Reviews
       </Button>
 

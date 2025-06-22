@@ -72,7 +72,7 @@ const jobsData = [
 
 const MowingHistory = () => {
   return (
-    <section className='pt-8 pb-6 px-2 sm:px-6 lg:px-8'>
+    <section className='pt-8 pb-6 '>
       <div className='text-left mb-8'>
         <h2 className='text-2xl text-center sm:text-start sm:text-3xl font-bold text-gray-800 tracking-tight'>
           Mowing History
@@ -82,7 +82,7 @@ const MowingHistory = () => {
         </p>
       </div>
 
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-8'>
         {jobsData.map(job => (
           <JobCard key={job.id} job={job} />
         ))}

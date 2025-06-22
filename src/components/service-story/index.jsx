@@ -15,7 +15,7 @@ export const ServiceStory = () => {
 
   return (
     <div className='bg-white font-sans mt-1 mb-6'>
-      <div className='p-2 md:p-8'>
+      <div className='px-2 md:px-6 py-2'>
         <h2 className='text-3xl md:text-4xl font-bold text-gray-900 text-center sm:text-start'>
           ETC Services Story
         </h2>
@@ -67,7 +67,7 @@ export const ServiceStory = () => {
             onClick={() => setIsExpanded(!isExpanded)}
             variant='outline'
             size='lg'
-            className='border-black/80 hover:opacity-90'
+            className='border-black/80 hover:opacity-90 w-full sm:w-auto'
           >
             {isExpanded ? 'Read Less' : 'Read More'}
           </Button>

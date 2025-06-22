@@ -43,7 +43,7 @@ const faqData = [
 
 const FaqSection = () => {
   return (
-    <div className='w-full my-6 p-2 md:p-6 font-sans'>
+    <div className='w-full mt-6 p-2 md:p-6 font-sans'>
       <h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center sm:text-start'>
         FAQs About Lawn Care at the White House
       </h2>
@@ -52,7 +52,7 @@ const FaqSection = () => {
         type='single'
         collapsible
         defaultValue='item-1'
-        className='w-full space-y-4'
+        className='w-full space-y-5'
       >
         {faqData.map(item => (
           <AccordionItem
@@ -68,7 +68,7 @@ const FaqSection = () => {
           >
             <AccordionTrigger
               className='
-                p-6 text-left w-full
+                p-3 text-left w-full
                 sm:text-lg
                 font-bold text-gray-800 
                 hover:no-underline
@@ -77,7 +77,7 @@ const FaqSection = () => {
             >
               {item.question}
             </AccordionTrigger>
-            <AccordionContent className='px-6 pb-6 pt-0 text-base text-gray-600 leading-relaxed'>
+            <AccordionContent className='px-3 pb-5 pt-0 text-base text-gray-600 leading-relaxed'>
               {item.answer}
             </AccordionContent>
           </AccordionItem>

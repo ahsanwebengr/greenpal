@@ -5,7 +5,7 @@ import { banner_bg } from '@/assets/images';
 const Header = () => {
   return (
     <header>
-      <nav className='bg-info flex items-center p-3 sm:p-7'>
+      <nav className='bg-info flex items-center p-3 sm:p-6'>
         <ReactSVG
           src={brand_logo}
           beforeInjection={svg => {
